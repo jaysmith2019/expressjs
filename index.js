@@ -9,4 +9,4 @@ app.get('/', function(req, res){
   res.sendFile(path.join(__dirname + '/static/index.html'));
 });
 
-app.listen(8080, port);
+app.listen(8080, ip);
