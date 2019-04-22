@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <!-- <link href="../../css/sb-admin-2.min.css" rel="stylesheet"> -->
+  <link href="../../css/sb-admin-2.css" rel="stylesheet">
+  <!-- <style>
+    @media only screen and (max-width : 1640px) {
+      #myAreaChart {
+        height: 1800px;
+      }
+    }
+  </style> -->
+</head>
+
+<body>
+    <div class="chart-area pt-4 pb-2">
+      <div class="row" style="padding: 0 15px 0 15px; margin-top: -22px; margin-left: 15px; margin-bottom: 15px;">
+        <div class="col-6">
+          <p>4/18/2019</p>
+        </div>
+        <div class="col-6">
+          <select class="form-control form-control-sm">
+            <option>4/18/2019</option>
+            <!-- <option>Past Week</option>
+            <option>Past Month</option> -->
+          </select>
+        </div>
+      </div>
+        <!-- <div class="row" style="padding: 0 15px 0 15px; margin-top: -22px;">
+          <p>&nbsp;&nbsp;From :&nbsp;&nbsp;</p>
+          <input id="timeEnd" class="form-control" style="width: 35% !important; height: 25px;" type="datetime-local" value="timeEnd" id="example-datetime-local-input">
+          <p class="text-right">&nbsp;&nbsp;To :&nbsp;&nbsp;</p>
+          <input  v-model="endDate" class="form-control" style="width: 35% !important; height: 25px;" type="datetime-local" value="" id="example-datetime-local-input">
+          <button class="btn btn-primary" style="margin-left: 15px; width: 65px; height: 25px; padding:0;" type="button">
+            <i class="fas fa-search fa-sm"></i>
+          </button>
+        </div> -->
+        <canvas id="myAreaChart"></canvas>
+    </div>
+  <!-- Bootstrap core JavaScript-->
+  <script src="../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="../../js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../../vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../../js/chart-area-daily.js"></script>
+  <script src="../../js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
